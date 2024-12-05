@@ -49,8 +49,9 @@ of directors with movie count strictly greater than the given threshold.
 #### Example:
 ```bash
 GET http://localhost:8080/api/directors?threshold=4
+```
 
-#### NOTE:
+## NOTE:
 ![image](https://github.com/user-attachments/assets/8d9d5ad1-ecab-4c71-bf64-60b62f421e1b)
 
-- for `Martin Scorsese`, I checked the API, and there are only 4 movies that he directed. So he will not be included in the result if we use 4 as a threshold because we fetch the ones who directed movies more that the threshold. In this case, 4.
+- for `Martin Scorsese`, I checked the API, and there are only 4 movies that he directed. So he will not be included in the result if we use 4 as a threshold because we fetch the ones who directed movies more than the threshold. In this case, 4.
